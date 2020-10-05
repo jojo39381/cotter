@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect} from 'react';
 import Dashboard from "./Dashboard"
 import "./styles.css";
 import "./normalize.css"
 import axios from "axios"
-import Cotter from "cotter"; //  1️⃣  Import Cotter
+// import Cotter from "cotter"; //  1️⃣  Import Cotter
 
 function App() {
   // const [payload, setpayload] = useState(null);
@@ -26,9 +26,9 @@ function App() {
       params: { "user.field": 'description,name,profile_image_url,username,verified'}
     };
   
-    const queryParameters = {
-      "user.field":"description,name,profile_image_url,username,verified"
-    };
+    // const queryParameters = {
+    //   "user.field":"description,name,profile_image_url,username,verified"
+    // };
   
     axios.get("https://api.twitter.com/2/users/by/username/Jojo39381", null, config )
     .then(response => console.log(response.data))
@@ -36,7 +36,7 @@ function App() {
 
   useEffect(() => {
     getInfo()
-  }, [])
+  }, []);
 
   return (
     <div>

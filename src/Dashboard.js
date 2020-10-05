@@ -5,7 +5,7 @@ const Dashboard = () => {
         <div>
             <div className="profile-container">
                 <h1>Profile Page</h1>
-                <img></img>
+                <img alt="hello"></img>
                 <h2>Joseph Yeh</h2>
                 <p>@JosephYeh. Aka Malia's Boyfriend</p>
             </div>
