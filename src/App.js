@@ -21,7 +21,7 @@ function App() {
   // }, []);
 
   function getInfo() {
-    token = "AAAAAAAAAAAAAAAAAAAAAKU0HgEAAAAASx%2FCtC66RwEi0n4QATdtLlDI%2Fuk%3DLyes4PSfjWzb7oIx0kVAYVTQhHnczzFsiDZ3fj3PmwTKsKSKiV"
+    const token = "AAAAAAAAAAAAAAAAAAAAAKU0HgEAAAAASx%2FCtC66RwEi0n4QATdtLlDI%2Fuk%3DLyes4PSfjWzb7oIx0kVAYVTQhHnczzFsiDZ3fj3PmwTKsKSKiV"
     const config = {
       headers: { Authorization: `Bearer ${token}` }
     };
