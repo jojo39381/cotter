@@ -22,8 +22,7 @@ function App() {
 
   function getInfo() {
     const config = {
-      headers: { Authorization: `Bearer ${"AAAAAAAAAAAAAAAAAAAAAKU0HgEAAAAASx%2FCtC66RwEi0n4QATdtLlDI%2Fuk%3DLyes4PSfjWzb7oIx0kVAYVTQhHnczzFsiDZ3fj3PmwTKsKSKiV"}` },
-      params: { "user.field": 'description,name,profile_image_url,username,verified'}
+      headers: { Authorization: `Bearer ${"AAAAAAAAAAAAAAAAAAAAAKU0HgEAAAAASx%2FCtC66RwEi0n4QATdtLlDI%2Fuk%3DLyes4PSfjWzb7oIx0kVAYVTQhHnczzFsiDZ3fj3PmwTKsKSKiV"}` }
     };
   
     // const queryParameters = {
