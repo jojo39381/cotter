@@ -23,9 +23,13 @@ function App() {
   function getInfo() {
     const token = "AAAAAAAAAAAAAAAAAAAAAKU0HgEAAAAASx%2FCtC66RwEi0n4QATdtLlDI%2Fuk%3DLyes4PSfjWzb7oIx0kVAYVTQhHnczzFsiDZ3fj3PmwTKsKSKiV"
     const config = {
-      headers: { Authorization: `Bearer ${token}` }
+      
+      headers: { 
+        'Access-Control-Allow-Origin' : '*',
+        'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,PATCH,OPTIONS',
+        'Authorization': `Bearer ${token}` }
     };
-  
+    console.log(config)
     // const queryParameters = {
     //   "user.field":"description,name,profile_image_url,username,verified"
     // };
